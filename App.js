@@ -78,7 +78,7 @@ export default function App() {
     ));
   };
 
-  /*
+  
   useEffect(() => {
     async function carregaDados() {
       const task = await AsyncStorage.getItem("task");
@@ -96,7 +96,7 @@ export default function App() {
     }
     salvaDados();
   }, [task]);
-*/
+
 
   return (
     <KeyboardAvoidingView
